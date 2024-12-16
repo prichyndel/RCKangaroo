@@ -1,6 +1,6 @@
 CC := g++
-NVCC := /usr/local/cuda-12.0/bin/nvcc
-CUDA_PATH ?= /usr/local/cuda-12.0
+NVCC := /usr/local/cuda-11.8/bin/nvcc
+CUDA_PATH ?= /usr/local/cuda-11.8
 
 CCFLAGS := -O3 -I$(CUDA_PATH)/include
 NVCCFLAGS := -O3 -gencode=arch=compute_89,code=compute_89 -gencode=arch=compute_86,code=compute_86
