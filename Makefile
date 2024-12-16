@@ -12,7 +12,7 @@ GPU_SRC := RCGpuCore.cu
 CPP_OBJECTS := $(CPU_SRC:.cpp=.o)
 CU_OBJECTS := $(GPU_SRC:.cu=.o)
 
-TARGET := RCKangaroo
+TARGET := rckangaroo
 
 all: $(TARGET)
 
